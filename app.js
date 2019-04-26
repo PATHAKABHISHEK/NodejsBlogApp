@@ -9,6 +9,8 @@ const blog_route = require('./routes/blog');
 
 const app = express();
 
+app.set('view engine', 'ejs');
+
 app.use('/', blog_route);
 
 app.listen(3000, ()=>{
