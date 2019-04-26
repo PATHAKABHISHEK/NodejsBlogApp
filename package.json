@@ -1,0 +1,25 @@
+{
+  "name": "nodejsblogapp",
+  "version": "1.0.0",
+  "description": "This is a Nodejs Blog Project which will use Mongodb and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PATHAKABHISHEK/NodejsBlogApp.git"
+  },
+  "author": "Abhishek Pathak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PATHAKABHISHEK/NodejsBlogApp/issues"
+  },
+  "homepage": "https://github.com/PATHAKABHISHEK/NodejsBlogApp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.4"
+  }
+}
